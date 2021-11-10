@@ -4,7 +4,7 @@ package oops;
 import java.util.regex.*;// Suitable one
 //import java.*; // Not Suitable
 
-public class PatternDemo {
+public class ImportDemo {
 	public static void main(String[] args) {
 		Pattern pattern = Pattern.compile("a");
 	}

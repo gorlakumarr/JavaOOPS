@@ -4,7 +4,7 @@ package oops;
 //or
 //import java.util.*;// Implicit Import Statement
 
-public class Test {
+public class ImportDemo1 {
 	public static void main(String[] args) {
 		// Fully Qualified Name
 		java.util.ArrayList<Integer> arrayList = new java.util.ArrayList<Integer>();
@@ -19,7 +19,7 @@ public class Test {
 		/*
 		 * Same Default package
 		 */
-		Student student = new Student();
+		ImportDemo3 student = new ImportDemo3();
 	}
 }
 
