@@ -35,9 +35,18 @@ public class InheritenceExamples {
 	 */
 
 	/*
-	 * In Classes : Multiple and Hybrid Inheritance not allowed in Java
+	 * In Classes : Multiple,Cyclic and Hybrid Inheritance not allowed in Java
 	 * 
 	 * In Interfaces : Multiple and Hybrid Inheritance allowed in Java
+	 * 
+	 */
+
+	/*
+	 * Cyclic Inheritance
+	 * 
+	 * 1.Class A extends A
+	 * 
+	 * 2.Class A extends B : Class B extends A
 	 * 
 	 */
 }
