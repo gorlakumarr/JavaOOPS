@@ -1,6 +1,6 @@
 package oops;
 
-public class DataHiding_Account {
+public class OOPS_1_DataHiding_Account {
 
 	/*
 	 * We can achieve data hiding by Declaring the member variable private. We can
