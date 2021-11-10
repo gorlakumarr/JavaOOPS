@@ -16,7 +16,21 @@ public class InheritenceExamples {
 	 * 
 	 * Class C extends B and extends A
 	 * 
-	 * 4.Hybrid Inheritance
+	 * 4.Hierarchical Inheritance
+	 * 
+	 * Class A :
+	 * 
+	 * Class B extends A
+	 * 
+	 * Class C extends A
+	 * 
+	 * 5.Hybrid Inheritance
+	 * 
+	 * Class C extends B extends Class A
+	 * 
+	 * Class F extends E extends Class C
+	 * 
+	 * Class F extends D extends Class C
 	 * 
 	 */
 }
