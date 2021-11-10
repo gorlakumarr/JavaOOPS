@@ -1,5 +1,7 @@
 package oops;
 
+//package sample; // at most one package is allowed. it should be the first line in the program.
+
 class A {
 	/*
 	 * D:\JavaOOPS\src\oops>java A
