@@ -16,7 +16,6 @@ package oops;
  * 7.protected
  * 8.static
  * 
- * 
  */
 
 public class ClassModifiers {
