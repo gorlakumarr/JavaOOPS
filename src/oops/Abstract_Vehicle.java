@@ -1,6 +1,6 @@
 package oops;
 
-public class Test_AbstractDemoClass_Vehicle {
+public class Abstract_Vehicle {
 	public static void main(String[] args) {
 		Bus bus = new Bus();
 		System.out.println(bus.getNoOfWheels());

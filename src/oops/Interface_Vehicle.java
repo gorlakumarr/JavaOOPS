@@ -1,6 +1,6 @@
 package oops;
 
-public interface Vehicle_Interface {
+public interface Interface_Vehicle {
 	public void m1();
 
 	public void m2();

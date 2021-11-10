@@ -1,6 +1,6 @@
 package oops;
 
-public class Child_Vehicle_Interface implements Vehicle_Interface {
+public class Interface_Child_Vehicle implements Interface_Vehicle {
 
 //	@Override
 //	void m1() {
