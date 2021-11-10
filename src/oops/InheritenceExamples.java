@@ -33,4 +33,11 @@ public class InheritenceExamples {
 	 * Class F extends D extends Class C
 	 * 
 	 */
+
+	/*
+	 * In Classes : Multiple and Hybrid Inheritance not allowed in Java
+	 * 
+	 * In Interfaces : Multiple and Hybrid Inheritance allowed in Java
+	 * 
+	 */
 }
