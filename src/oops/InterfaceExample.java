@@ -18,6 +18,6 @@ public class InterfaceExample {
 	 * while overriding we can't reduce the scope of method
 	 * 
 	 * Class implementing the interface, then it should give implementation for all
-	 * the methods in interface
+	 * the methods in interface or u can mention class as abstract modifier
 	 */
 }
