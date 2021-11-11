@@ -1,6 +1,6 @@
 package oops;
 
-public class OOPS_1_Overloading {
+public class OOPS_1_Overloading_Study_1 {
 	/*
 	 * Two methods with same name but arguments are different or order also
 	 * different.
@@ -22,11 +22,12 @@ public class OOPS_1_Overloading {
 	}
 
 	public static void main(String[] args) {
-		OOPS_1_Overloading o = new OOPS_1_Overloading();
+		OOPS_1_Overloading_Study_1 o = new OOPS_1_Overloading_Study_1();
 		o.m1();
 		o.m1(10);
 		o.m1(1.5f);
 		o.m1('1');// char can be promoted to int
+		o.m1(10l);// long can be promoted to float
 
 		/*
 		 * Automatic promotion in overloading
