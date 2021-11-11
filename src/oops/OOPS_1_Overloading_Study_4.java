@@ -15,5 +15,6 @@ public class OOPS_1_Overloading_Study_4 {
 		ref.m1(0);// int args method
 		ref.m1();// int var args method
 		ref.m1(10, 12);// int var args method
+		ref.m1(10);// int args method
 	}
 }
