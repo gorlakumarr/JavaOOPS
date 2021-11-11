@@ -14,5 +14,6 @@ public class OOPS_1_Overloading_Study_4 {
 		OOPS_1_Overloading_Study_4 ref = new OOPS_1_Overloading_Study_4();
 		ref.m1(10, 10.5f);// int float args method
 		ref.m1(10.5f, 10);// float int args method
+//		ref.m1(10, 10);//The method m1(int, float) is ambiguous for the type OOPS_1_Overloading_Study_4
 	}
 }
