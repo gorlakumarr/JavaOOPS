@@ -41,12 +41,17 @@ package oops;
  *	:: static -> non static :: not overridden
  *  :: non static -> static :: not overridden		
  * 
- * --> 
- *
+ * --> Parent Var :: Child Var : Overriding is for only Methods not for Variables
+ *	   Resolution takes care by Compiler based on Reference type  
+ * 	   Instance  <--> Instance : P C P
+ *	   Static    <--> Instance : P C P
+ *	   Instance  <--> Static   : P C P
  * --> 
  */
 
 class Parent {
+	String s = "Parent"; // Instance Variable
+
 	public void property() {
 		System.out.println("Parent Property");
 	}
@@ -63,9 +68,15 @@ class Parent {
 		System.out.println("Parent Gold");
 	}
 
+	public void m1(int... i) {
+		System.out.println("Parent Var Args");
+	}
+
 }
 
 class Child extends Parent {
+	String s = "Child";
+
 	public void marriage() {
 		System.out.println("Child Marriage");// Overriding Method
 	}
@@ -81,23 +92,42 @@ class Child extends Parent {
 	public static void gold() {
 		System.out.println("Child Gold");
 	}
+
+	public void m1(int i) { // Its overloading
+		System.out.println("Child Normal Args");
+	}
+
+	public void m1(int... i) { // Its overriding
+		System.out.println("Child Var Args");
+	}
 }
 
 public class OOPS_1_Overriding extends OOPS_1_Inheritence_Parent {
+
 	public static void main(String[] args) {
 		// 1
 		Parent p = new Parent();
 		p.marriage();// Parent Marriage
 		p.gold();
+		p.m1(10);// Parent Var Args
+		System.out.println(p.s);
+
+		System.out.println();
 
 		// 2
 		Child c = new Child();
 		c.marriage();// Child Marriage
 		c.gold();
+		c.m1(10);// Child Var Args
+		System.out.println(c.s);
+
+		System.out.println();
 
 		// 3
 		Parent pc = new Child();
 		pc.marriage();// Child Marriage
 		pc.gold();
+		pc.m1(10);
+		System.out.println(pc.s);
 	}
 }
