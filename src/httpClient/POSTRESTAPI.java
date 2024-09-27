@@ -2,11 +2,11 @@ package httpClient;
 
 import java.io.StringWriter;
 import java.net.URI;
+import java.net.http.HttpResponse;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 
-import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;

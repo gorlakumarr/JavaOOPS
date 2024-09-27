@@ -1,8 +1,9 @@
 package oops;
 
 //import java.util.regex.Pattern; // Suitable one
-import java.util.regex.*;// Suitable one
+// Suitable one
 //import java.*; // Not Suitable
+import java.util.regex.Pattern;
 
 public class ImportDemo {
 	public static void main(String[] args) {
